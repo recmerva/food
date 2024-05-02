@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.beauty{
+    background-color: rgb(234, 158, 234);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    font-size: 24px;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    height: 70px;  
+    display: flex; 
+}
+.home{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 760px;
+    font-size: 18px;
+    
+}
+.home a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home a:hover{
+  color: rgb(207, 67, 193);
+}
+
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 158, 234);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .levo, .desno {
+    text-align: center;
+  }
+  
+  .levo p{
+    color: white;
+    margin-bottom: 12px;
+  }
+  .desno a {
+    margin-left: 10px;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  
+  .desno a:hover{
+    color: rgb(207, 67, 193) ;
+  }
+  .home a:hover{
+    color: rgb(207, 67, 193);
+}
+.active {
+    border-bottom: 2px solid white;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus h2 {
+    color: #333;
+}
+
+.aboutus p {
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #555;
+}

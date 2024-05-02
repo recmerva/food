@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.beauty{
+    background-color: rgb(234, 158, 234);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    font-size: 24px;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    height: 70px;  
+    display: flex; 
+    
+}
+
+.home{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 760px;
+    font-size: 18px;
+    
+}
+.home a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+.container {
+    text-align: center;
+  }
+  
+  .welcome{
+    background-color: #fff;
+    border-radius: 8px;
+    
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 120px;
+  }
+  
+  .ikonice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .ikonice i {
+    font-size: 50px;
+    margin: 0 10px;
+  }
+  
+  .kartice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .hranakartice {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .hranakartice i {
+    font-size: 30px;
+  }
+  
+  .hranakartice h2 {
+    margin-top: 15px;
+  }
+  
+  .hranakartice p {
+    margin-top: 15px;
+  }
+  footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 158, 234);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .levo, .desno {
+    text-align: center;
+  }
+  
+  .levo p{
+    color: white;
+    margin-bottom: 12px;
+  }
+  .desno a {
+    margin-left: 10px;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  
+  .desno a:hover{
+    color: rgb(207, 67, 193) ;
+  }
+  .home a:hover{
+    color: rgb(207, 67, 193);
+}
